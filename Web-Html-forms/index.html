@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" charset="utf-8"></script>
+    <title>CIT-Club</title>
+  </head>
+  <body>
+      <form action="" method="get" enctype="multipart/form-data">
+
+        <div class="">
+          <input type="text" name="username" placeholder="username" required
+          autocomplete="organization"
+          >
+        </div>
+
+        <div class="">
+          <input type="email" name="email" placeholder="email" required autofocus>
+        </div>
+
+        <div class="">
+          Male <input type="radio" name="gender" checked>
+          Female<input type="radio" name="gender">
+        </div>
+
+        <div class="">
+          Programmer <input type="checkbox" name="cit" value="CIT">
+        </div>
+
+        <div class="">
+          Student <input type="checkbox" name="Student" value="CIT">
+        </div>
+        <select name="country">
+          <option value="" selected></option>
+          <optgroup label="Country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzani">Tanzani</option>
+          </optgroup>
+
+          <optgroup label="Food">
+            <option value="Rice">Rice</option>
+            <option value="Nyama choma">Nyama choma</option>
+            <option value="KDF">KDF</option>
+          </optgroup>
+
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+  </body>
+</html>
