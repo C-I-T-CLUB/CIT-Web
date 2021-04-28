@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML MEDIA
+        </title>
+        <style>
+            .bgvideo{
+                width: 100%;
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                opacity: .7;
+            }
+            body{
+                position: relative;
+
+            }
+            .content{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>AUDIO</h1>
+        <audio controls>
+            <source src="BURN.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        <h1>VIDEO</h1>
+        <video width="320" length="315" controls autoplay muted>
+            <source src="PILLS&PORTIONS.mp4.1584103753626" type="video/mp4">
+        </video>
+        <br>
+        <h1>youtube</h1>
+        <iframe width="320" length="315"
+        src="https://www.youtube.com/embed/rUWxSEwctFU?autoplay=1&mute=1">
+    </iframe>
+    <br>
+    <h1>youtube</h1>
+    <iframe width="320" length="315"
+    src="https://www.youtube.com/embed/rUWxSEwctFU?playlist=rUWxSEwctFU&controls=0">
+</iframe>
+<br>
+<h1> HTML PLUG-INS</h1>
+<object width="100%" height="500px" data="snippet.html"></object>
+<object data="Webdev.jpg"></object>
+<embed src="Webdev.jpg">
+    <embed width="100%" height="500px" src="snippet.html">
+        <div class="bgvideo">
+            <video autoplay muted loop class="content">
+                <source src="PILLS&PORTIONS.mp4.1584103753626" type="video/mp4">
+            </video>
+        </div>
+    </body>
+</html>
